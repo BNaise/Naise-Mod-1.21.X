@@ -1,5 +1,6 @@
 package net.bnaise.naisemod;
 
+import net.bnaise.naisemod.block.ModBlocks;
 import net.bnaise.naisemod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -16,6 +17,8 @@ public class NaiseMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+
+		ModBlocks.registerModBlocks();
 
 	}
 }
