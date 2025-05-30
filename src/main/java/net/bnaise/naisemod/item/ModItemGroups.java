@@ -16,8 +16,11 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PINK_GARNET))
                     .displayName(Text.translatable("itemgroup.naisemod.pink_garnet_items"))
                     .entries((displayContext, entries) -> {
+
                         entries.add(ModItems.PINK_GARNET);
+
                         entries.add(ModItems.RAW_PINK_GARNET);
+
                     }).build());
 
     public static final ItemGroup PINK_GARNET_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -25,8 +28,11 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.PINK_GARNET_BLOCK))
                     .displayName(Text.translatable("itemgroup.naisemod.pink_garnet_blocks"))
                     .entries((displayContext, entries) -> {
+
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
+
                         entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
+
                     }).build());
 
 
