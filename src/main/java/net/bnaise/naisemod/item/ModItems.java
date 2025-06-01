@@ -1,6 +1,7 @@
 package net.bnaise.naisemod.item;
 
 import net.bnaise.naisemod.NaiseMod;
+import net.bnaise.naisemod.item.custom.ChiselItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -15,6 +16,9 @@ public class ModItems {
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
 
     public static final Item HI = registerItem("hi", new Item(new Item.Settings()));
+
+
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
 
     private static Item registerItem(String name, Item item) {
 
@@ -31,6 +35,7 @@ public class ModItems {
             fabricItemGroupEntries.add(PINK_GARNET);
             fabricItemGroupEntries.add(RAW_PINK_GARNET);
             fabricItemGroupEntries.add(HI);
+
 
         });
 

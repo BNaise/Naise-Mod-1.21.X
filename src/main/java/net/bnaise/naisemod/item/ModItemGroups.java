@@ -1,5 +1,6 @@
 package net.bnaise.naisemod.item;
 
+import net.bnaise.naisemod.item.custom.ChiselItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.bnaise.naisemod.NaiseMod;
 import net.bnaise.naisemod.block.ModBlocks;
@@ -20,6 +21,8 @@ public class ModItemGroups {
                         entries.add(ModItems.PINK_GARNET);
 
                         entries.add(ModItems.RAW_PINK_GARNET);
+
+                        entries.add(ModItems.CHISEL);
 
                     }).build());
 
