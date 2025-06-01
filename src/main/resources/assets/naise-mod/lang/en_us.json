@@ -1,5 +1,14 @@
 {
   "item.naise-mod.pink_garnet": "Pink Garnet",
   "item.naise-mod.raw_pink_garnet": "Raw Pink Garnet",
-  "item.naise-mod.hi": "Hi"
+  "item.naise-mod.hi": "Hi!",
+  "item.naise-mod.chisel": "Chisel",
+
+  "block.naise-mod.pink_garnet_block": "Block of Pink Garnet",
+  "block.naise-mod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+  "block.naise-mod.pink_garnet_ore": "Pink Garnet Ore",
+  "block.naise-mod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
+
+  "itemgroup.naisemod.pink_garnet_blocks": "Pink Garnet Blocks",
+  "itemgroup.naisemod.pink_garnet_items": "Pink Garnet Items"
 }
